@@ -20,7 +20,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    
+
+    # External apps
+    'rest_framework',
+    'drf_yasg',
+
     # Your apps
     'api.apps.ApiConfig',
 ]
