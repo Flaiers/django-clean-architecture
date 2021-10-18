@@ -1,2 +1,2 @@
-# django-template
-Clean django template. The best project structure of django
+Clean django template
+=====================
