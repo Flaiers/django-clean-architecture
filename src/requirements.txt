@@ -1,5 +1,8 @@
 Django
 unicorn
 uvicorn
+drf-yasg
 python-dotenv
+django-jazzmin
 psycopg2-binary
+djangorestframework
