@@ -1,0 +1,5 @@
+Django
+unicorn
+uvicorn
+python-dotenv
+psycopg2-binary
