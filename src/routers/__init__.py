@@ -8,9 +8,9 @@ from .yasg_router import urlpatterns as yasg
 
 urlpatterns = main + yasg
 
-admin.site.site_header = "Fla Admin"
-admin.site.site_title = "Fla Admin"
-admin.site.index_title = "Welcome to Fla Admin Panel"
+admin.site.site_header = "Custom Admin"
+admin.site.site_title = "Custom Admin"
+admin.site.index_title = "Welcome to Custom Admin Panel"
 
 if settings.DEBUG:
     from django.conf.urls.static import static

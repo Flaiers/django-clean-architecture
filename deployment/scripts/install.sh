@@ -21,4 +21,5 @@ pip install -U pip && pip install -r src/requirements.txt
 python src/manage.py collectstatic --noinput
 python src/manage.py makemigrations
 python src/manage.py migrate
+python src/build.py
 python src/manage.py runserver --insecure
