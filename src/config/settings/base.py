@@ -2,8 +2,10 @@ import os
 
 from packs import bool
 
+from pathlib import Path
 
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(__file__))))
+
+BASE_DIR = Path(__file__).parent.parent.parent.parent
 
 SECRET_KEY = os.getenv('SECRET_KEY')
 

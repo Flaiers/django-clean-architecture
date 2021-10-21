@@ -1,6 +1,6 @@
 Django
-unicorn
 uvicorn
+gunicorn
 drf-yasg
 python-dotenv
 django-jazzmin

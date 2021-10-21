@@ -1,8 +1,11 @@
-from dotenv import load_dotenv
-
 import os
 
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(__file__))))
+from pathlib import Path
+
+from dotenv import load_dotenv
+
+
+BASE_DIR = Path(__file__).parent.parent.parent.parent
 
 # reading ./deployment/.env file
 load_dotenv(os.path.join(BASE_DIR, 'deployment', '.env'))
