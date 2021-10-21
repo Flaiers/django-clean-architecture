@@ -16,10 +16,12 @@ else
 fi
 
 source env/bin/activate
-pip install -U pip && pip install -r src/requirements.txt
+cd src/
 
-python src/manage.py collectstatic --noinput
-python src/manage.py makemigrations --name alter_db_table
-python src/manage.py migrate
-python src/build.py
-python src/manage.py runserver --insecure
+pip install -U pip && pip install -r requirements.txt
+
+python manage.py collectstatic --noinput
+python manage.py makemigrations --name alter_db_table
+python manage.py migrate
+python build.py
+python manage.py runserver --insecure
