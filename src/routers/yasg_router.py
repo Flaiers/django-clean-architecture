@@ -8,7 +8,7 @@ from django.urls import path
 
 schema_view = get_schema_view(
    openapi.Info(
-      title="Fla API",
+      title="Custom API",
       default_version='v1',
       description="This is manual for API",
       license=openapi.License(name="MIT License"),
