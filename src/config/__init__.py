@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 import os
 
-import django
+import packs
 
-from packs import rename_tables
+import django
 
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'config.settings')
@@ -11,4 +11,4 @@ os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'config.settings')
 django.setup()
 
 '''Rename tables in database'''
-rename_tables()
+packs.rename_tables()
