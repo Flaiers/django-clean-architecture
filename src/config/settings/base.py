@@ -43,7 +43,6 @@ MIDDLEWARE = [
 ]
 
 CONN_MAX_AGE = None
-APPEND_SLASH = bool(os.getenv('APPEND_SLASH'))
 ROOT_URLCONF = 'routers'
 
 TEMPLATES = [

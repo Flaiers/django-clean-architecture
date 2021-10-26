@@ -1,8 +1,8 @@
 def rename_tables() -> None:
 
+    from django.contrib.auth.models import User, Group, Permission
     from django.db.migrations.recorder import MigrationRecorder
     from django.contrib.contenttypes.models import ContentType
-    from django.contrib.auth.models import User, Group, Permission
     from django.contrib.sessions.models import Session
     from django.contrib.admin.models import LogEntry
 
