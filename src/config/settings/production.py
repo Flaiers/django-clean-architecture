@@ -1,9 +1,8 @@
-import os
+from dotenv import load_dotenv
 
 from pathlib import Path
 
-from dotenv import load_dotenv
-
+import os
 
 BASE_DIR = Path(__file__).parent.parent.parent.parent
 
@@ -17,6 +16,5 @@ DATABASES = {
         'USER': os.getenv('DB_USER'),
         'PASSWORD': os.getenv('DB_PASSWORD'),
         'HOST': os.getenv('HOST'),
-        'PORT': os.getenv('DB_PORT'),
     }
 }
