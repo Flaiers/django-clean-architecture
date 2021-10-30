@@ -1,9 +1,8 @@
-import os
+from pathlib import Path
 
 from packs import bool
 
-from pathlib import Path
-
+import os
 
 BASE_DIR = Path(__file__).parent.parent.parent.parent
 

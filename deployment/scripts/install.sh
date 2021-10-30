@@ -21,6 +21,7 @@ cd src/
 pip install -U pip && pip install -r requirements.txt
 
 python manage.py collectstatic --noinput
+python manage.py makemigrations core
 python manage.py makemigrations --name alter_db_table
 python manage.py migrate
 python build.py
