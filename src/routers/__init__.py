@@ -1,9 +1,8 @@
-from django.conf import settings
-from django.contrib import admin
-
 from .main_router import urlpatterns as main
 from .yasg_router import urlpatterns as yasg
 
+from django.conf import settings
+from django.contrib import admin
 
 urlpatterns = main + yasg
 
