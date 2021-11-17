@@ -136,5 +136,4 @@ public/
 .vscode/
 
 # db directories
-db_dev/
-db/
+*db*/
