@@ -8,11 +8,10 @@ Default: /usr/bin/python
 (Сlick Enter for choose default)
 If you wont to change, write: " python_interpreter
 
-
 if [ -z "$python_interpreter" ]; then
     /usr/bin/python -m venv env
 else
-    `$python_interpreter -m venv env`
+    $($python_interpreter -m venv env)
 fi
 
 source env/bin/activate
