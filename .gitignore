@@ -1,7 +1,6 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
-*.pyc
 *$py.class
 
 # C extensions
@@ -59,8 +58,8 @@ coverage.xml
 # Django stuff:
 *.log
 local_settings.py
-*.sqlite3
-*.sqlite3-journal
+db.sqlite3
+db.sqlite3-journal
 
 # Flask stuff:
 instance/
@@ -105,7 +104,6 @@ celerybeat.pid
 # Environments
 .env
 .venv
-env/
 venv/
 ENV/
 env.bak/
@@ -132,8 +130,8 @@ dmypy.json
 # staticfiles
 public/
 
-.idea/
-.vscode/
+# PyCharm
+.idea
 
-# db directories
-*db*/
+# VS Code
+.vscode/
