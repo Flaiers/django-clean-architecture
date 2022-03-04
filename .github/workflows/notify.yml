@@ -1,4 +1,4 @@
-name: Django Template Notify
+name: Notify
 
 on:
   push:
