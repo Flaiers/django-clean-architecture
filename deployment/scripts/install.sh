@@ -9,12 +9,12 @@ Default: /usr/bin/python
 If you wont to change, write: " python_interpreter
 
 if [ -z "$python_interpreter" ]; then
-    /usr/bin/python -m venv env
+    /usr/bin/python -m venv .venv
 else
-    $($python_interpreter -m venv env)
+    $($python_interpreter -m venv .venv)
 fi
 
-source env/bin/activate
+source .venv/bin/activate
 cd src/
 
 pip install -U pip && pip install -r requirements.txt

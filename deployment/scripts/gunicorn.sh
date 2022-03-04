@@ -1,5 +1,5 @@
 #!/bin/bash
-source env/bin/activate
+source .venv/bin/activate
 cd src/
 
 python manage.py collectstatic --noinput
